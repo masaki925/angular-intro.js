@@ -16,7 +16,8 @@
 
 	</head>
 	<body>
-		<div class="container-narrow" ng-controller="MyController"
+		<div ng-controller="MyController">
+		<div class="container-narrow"
 		     ng-intro-options="IntroOptions" ng-intro-method="CallMe"
 		     ng-intro-oncomplete="CompletedEvent" ng-intro-onexit="ExitEvent"
 		     ng-intro-onchange="ChangeEvent" ng-intro-onbeforechange="BeforeChangeEvent"
@@ -92,6 +93,7 @@ steps:[
 
 		    <hr>
 
+		</div>
 		</div>
 		<script type="text/javascript" src="../bower_components/intro.js/minified/intro.min.js"></script>
 		<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
